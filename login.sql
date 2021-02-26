@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`idUsers`, `f_name`, `l_name`, `uidUsers`, `emailUsers`, `pwdUsers`, `gender`, `role`, `bio`, `userImg`, `status`) VALUES
-(11, 'maina', 'macharia', 'opulent', 'opulent@gmail.com', '$2y$10$IlqyRi6NXavDiTUfsWp5meiqBL6ouX8lRyGr6dxb5lQAirP6fcKgW', 'm', 'user', 'admin', '5f2704284d1a80.68010613.ico', 'activated');
+(1, 'simon', 'macharia', 'opulent', 'opulent@gmail.com', '$2y$10$IlqyRi6NXavDiTUfsWp5meiqBL6ouX8lRyGr6dxb5lQAirP6fcKgW', 'm', 'user', 'admin', '5f2704284d1a80.68010613.ico', 'activated');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
